@@ -13,7 +13,7 @@
   "author": "@aexmachina",
   "license": "MIT",
   "dependencies": {
-    "broccoli-sass": "git://github.com/toranb/broccoli-sass#master"
+    "broccoli-sass": "git+https://github.com/toranb/broccoli-sass"
   },
   "repository": {
     "type": "git",
