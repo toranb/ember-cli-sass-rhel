@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-sass-rhel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fork of ember-cli-sass for red hat enterprise linux (broccoli-sass-rhel => node-sass 1.1.2 friendly)",
   "main": "index.js",
   "scripts": {

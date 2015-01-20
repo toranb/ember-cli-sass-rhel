@@ -1,4 +1,4 @@
-var SassCompiler = require('broccoli-sass');
+var SassCompiler = require('broccoli-sass-rhel');
 var path = require('path');
 
 function SASSPlugin(options) {
@@ -36,8 +36,8 @@ EmberCLISASS.prototype.included = function included(app) {
   }
   options.outputFile = options.outputFile || this.project.name() + '.css';
   app.registry.add('css', new SASSPlugin(options));
-  // prevent conflict with broccoli-sass if it's installed
-  if (app.registry.remove) app.registry.remove('css', 'broccoli-sass');
+  // prevent conflict with broccoli-sass-rhel if it's installed
+  if (app.registry.remove) app.registry.remove('css', 'broccoli-sass-rhel');
 };
 
 module.exports = EmberCLISASS;
